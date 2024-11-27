@@ -1,0 +1,126 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f2fb; /* Fondo morado claro */
+    color: #4a4a4a; /* Texto principal */
+  }
+  
+  h1, h2, h4 {
+    color: #6a1b9a; /* Morado más oscuro */
+  }
+  
+  .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  /* Botones */
+  .btn-primary {
+    background-color: #7e57c2;
+    border: none;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5e35b1;
+  }
+  
+  .btn-secondary {
+    background-color: #d1c4e9;
+    border: none;
+    color: #6a1b9a;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #b39ddb;
+  }
+  
+  .btn-success {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+  }
+  
+  .btn-success:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Formularios */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border-radius: 8px;
+    border: 1px solid #d1c4e9;
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 5px rgba(110, 63, 163, 0.5);
+    border-color: #7e57c2;
+  }
+  
+  .input-group .form-control {
+    border-right: none;
+  }
+  
+  .input-group .form-control:last-child {
+    border-right: 1px solid #d1c4e9;
+  }
+  
+  .is-invalid {
+    border-color: #e57373;
+    background-color: #ffebee;
+  }
+  
+  .is-invalid:focus {
+    box-shadow: 0 0 5px rgba(230, 57, 70, 0.5);
+  }
+  
+  /* Radio Buttons */
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  label {
+    cursor: pointer;
+  }
+  
+  /* Progresión de pasos */
+  #form-steps {
+    padding: 2rem;
+  }
+  
+  .form-step h2 {
+    border-bottom: 2px solid #7e57c2;
+    padding-bottom: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Resumen */
+  #resumen p {
+    margin-bottom: 8px;
+  }
+  
+  #resumen strong {
+    color: #6a1b9a;
+  }
+/* Barra de progreso */
+.progress {
+    height: 1.5rem;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    background-color: #7e57c2;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    transition: width 0.3s ease;
+  }
+    
